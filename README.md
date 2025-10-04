@@ -15,9 +15,25 @@ This project presents a MATLAB-based system for detecting kidney stones from ult
 
 The model achieved  **97% classification accuracy**.
 
+## 🧠 Methodology Overview
+
+1. **Preprocessing:** Noise reduction and image enhancement of ultrasound scans.  
+2. **Segmentation:** Morphological analysis to isolate potential stone regions.  
+3. **Feature Extraction:** Wavelet-based statistical features extracted for classification.  
+4. **Classification:** Neural network trained to distinguish stone presence and absence.  
+
+> The pipeline was implemented in **MATLAB**, leveraging built-in functions for image filtering, segmentation, and feature analysis.
+
 ---
 
-## 🧩 Techniques Used
+## 📊 Results
+
+| Stage | Technique | Outcome |
+|-------|------------|----------|
+| Preprocessing | Contrast enhancement, median filtering | Reduced speckle noise |
+| Segmentation | Morphological operations | Clear stone boundaries |
+| Classification | Wavelet + Neural Network | 97% classification accuracy |
+
 - **Programming Language:** MATLAB  
 - **Key Methods:** Image Enhancement, Morphological Segmentation, Wavelet Transform, Neural Network Classification  
 
